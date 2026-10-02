@@ -1,5 +1,15 @@
 # Lacunas de dados
 
+## Atualizacao 02/10/2026 (noite)
+
+- **Sem boletim CADAM de junho, julho, agosto ou setembro.** A lista cadam.com.py/noticias_all, reconsultada em 02/10/2026, continua com o ultimo informe de eletromobilidade em 16/06/2026 (acumulado janeiro-maio, 5.877 unidades). Notas posteriores sao do Motor Show, onibus (15/06) e do desembarco OMODA & JAECOO (02/07/2026), sem volumes.
+- **Julho 2026 so via concessionaria, nao via CADAM.** MarketData (01/09/2026), citando Emiliano Remonato (Grupo Garden), diz que veiculos eco friendly (HEV + mild-hybrid + PHEV + BEV) eram cerca de 17% das vendas totais ate julho, com crescimento aproximado de 180%. BEV teriam passado de 1,1% para 2,2% do mercado acumulado, crescimento superior a 200%. Unidades absolutas nao publicadas. Gravado em importaciones.csv com segmento ECO_FRIENDLY_VENTAS e BEV_VENTAS para nao misturar com importacao CADAM. O 17% inclui mild-hybrid, ausente da serie CADAM, e por isso nao e comparavel ao 10% do semestre nem ao 14,7% de agosto.
+- **Preco de entrada BEV (Garden, sem modelo):** existem eletricos abaixo de US$ 20.000 e opcoes acima de US$ 100.000. Nao atribuido a modelo. ABC (24/09/2026, Victor Servin) situa a diferenca de preco entre combustao e hibrido em 15% a 20%, sem tabela.
+- **Oferta Garden sem unidades:** Volvo EX40, EC40 e EX90; Chevrolet Captiva EV e Spark EV; Kia EV5; Kia PV5 anunciado como proximo; MINI Aceman e Countryman; iCAUR V23. EX30 segue como o BEV mais vendido do grupo, sem volume 2026. Incluidos em modelos.csv com confiabilidade baixa.
+- **OMODA e JAECOO (CADAM 02/07/2026):** chegada anunciada via Grupo Toyotoshi. A nota nao informa motorizacao no Paraguai nem unidades. Nao foram gravados como eletrificados.
+- **DNRA e Aduana:** nova consulta ao portal DNRA nao encontrou serie de inscricoes por motorizacao. Dados abertos da Aduana seguem sem agregacao NCM 8703.80 / 8703.60 / 8703.70 nesta rodada.
+- **Agosto e setembro:** nenhum numero novo alem do 14,7% sobre 24.700 ja gravado. El Nacional (28/09/2026) repete o percentual sem unidades. O absoluto 3.633 continua derivado e abaixo do semestre de 4.098.
+
 ## Atualizacao 02/10/2026 (tarde)
 
 - **Sem boletim CADAM de julho, agosto ou setembro.** A lista de noticias em cadam.com.py/noticias_all, consultada em 02/10/2026, ainda tem como ultimo informe de eletromobilidade a nota de 16/06/2026 (acumulado janeiro-maio). Nao ha nota de fechamento de junho, julho, agosto ou setembro no site da camara.
@@ -9,7 +19,7 @@
 - **BYD Ti7:** Ultima Hora (02/10/2026, brand voice) e La Nacion (01/10/2026) confirmam lancamento PHEV, autonomia eletrica declarada de 115 km e preventa sem quantidade nem preco.
 - **Volvo 2025 (vendas, nao importacao CADAM):** Motorpy (19/01/2026) cita 152 EV e 73 PHEV vendidos pela marca, dos quais 127 sao EX30. Incluido em modelos.csv com confiabilidade media; nao foi somado ao ranking CADAM.
 - **Fonte alternativa nao reconciliada:** Jose Carlos Bogarin (Automotor), em La Tribuna (01/10/2026), afirmou que os 100% eletricos representam cerca de 4% do parque novo e os hibridos 15% a 18%. Nao e dado CADAM e nao foi gravado como importacao.
-- **DNIT (30/09/2026):** projeto de regime gradual (50% do AEC + IVA 5% ate 2032; AEC pleno e IVA 10% desde 2033), com estimativa de arrecadacao de USD 15 a 30 milhoes. Nao e estatistica de volume.
+- **DNIT (30/09/2026):** projeto de regime gradual (50% do AEC + IVA 5% ate 2032; AEC pleno e IVA 10% desde 2033), com estimativa de arrecadacao de USD 15 a 30 milhoes. Nao e estatistica de volume. Economia.com.py precisa que microhibridos ficam fora do beneficio.
 - **DNRA:** portal (dnra.gov.py) segue sem serie publica de inscricoes por motorizacao. Ultima consulta nao encontrou campo eletrico/hibrido separado de combustivel.
 - **Aduana (dadosabertos.aduana.gov.py):** despachos por NCM existem, mas nao foi possivel baixar e agregar NCM 8703.80 / 8703.60 / 8703.70 nesta rodada. A CADAM declara usar a DNA como base; o microdado aberto continua sem campo de motorizacao.
 

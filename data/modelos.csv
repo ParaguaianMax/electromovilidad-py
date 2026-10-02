@@ -13,3 +13,13 @@ ano,segmento,marca,modelo,unidades,origem,categoria_tamanho,categoria_carroceria
 2026,HEV,Renault,Koleos E-Tech,nao publicado,Franca,medio,SUV,34990,anuncios infomotors.com.py out/2026; nao e lista oficial,baixa
 2026,BEV,BYD,Sealion 7,nao publicado,China,medio,SUV,nao publicado,apresentacao Diesa na CADAM Motor Show; preco e unidades nao publicados,baixa
 2026,BEV,nao especificada,onibus eletrico area metropolitana,70,nao publicado,onibus,onibus,nao publicado,MOPC via Ultima Hora (anuncio de incorporacao; 30 doados por Taiwan chegaram em fev/2026) e nota CADAM 15/06/2026; nao e estatistica de importacao CADAM,media
+2026,BEV,Volvo,EX40,nao publicado,Suecia,medio,SUV,nao publicado,MarketData 01/09/2026 oferta Grupo Garden; unidades e preco nao publicados; EX30 citado como o BEV mais vendido do grupo sem volume 2026,baixa
+2026,BEV,Volvo,EC40,nao publicado,Suecia,medio,crossover,nao publicado,MarketData 01/09/2026 oferta Grupo Garden; unidades e preco nao publicados,baixa
+2026,BEV,Volvo,EX90,nao publicado,Suecia,grande,SUV,nao publicado,MarketData 01/09/2026 oferta Grupo Garden; unidades e preco nao publicados,baixa
+2026,BEV,Chevrolet,Captiva EV,nao publicado,nao publicado,medio,SUV,nao publicado,MarketData 01/09/2026 oferta Grupo Garden; motorizacao eletrica declarada pelo grupo; unidades e preco nao publicados,baixa
+2026,BEV,Chevrolet,Spark EV,nao publicado,nao publicado,pequeno,hatch,nao publicado,MarketData 01/09/2026 oferta Grupo Garden; unidades e preco nao publicados,baixa
+2026,BEV,Kia,EV5,nao publicado,Coreia,medio,SUV,nao publicado,MarketData 01/09/2026 oferta Grupo Garden; unidades e preco nao publicados,baixa
+2026,BEV,Kia,PV5,nao publicado,Coreia,comercial,van,nao publicado,MarketData 01/09/2026; Grupo Garden diz que chegara proximamente; ainda nao e venda confirmada,baixa
+2026,BEV,MINI,Aceman,nao publicado,Reino Unido,compacto,crossover,nao publicado,MarketData 01/09/2026 oferta Grupo Garden; unidades e preco nao publicados,baixa
+2026,BEV,MINI,Countryman,nao publicado,Reino Unido,medio,SUV,nao publicado,MarketData 01/09/2026 oferta Grupo Garden; unidades e preco nao publicados,baixa
+2026,BEV,iCAUR,V23,nao publicado,China,compacto,SUV,nao publicado,MarketData 01/09/2026 oferta Grupo Garden; grafia iCAUR; unidades e preco nao publicados,baixa

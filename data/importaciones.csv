@@ -31,5 +31,7 @@ ano,mes,segmento,unidades,participacao_pct,fonte
 2026,06,PHEV,1172,28.6,CADAM
 2026,06,BEV,688,16.8,CADAM
 2026,06,TOTAL_EV,4098,10,CADAM via ABC Color 13/08/2026; participacao aproximada de 10% do total importado
+2026,07,ECO_FRIENDLY_VENTAS,,17,MarketData 01/09/2026 citando Emiliano Remonato (Grupo Garden); inclui HEV mild-hybrid PHEV e BEV; participacao aproximada das vendas totais ate julho; crescimento ~180%; NAO e importacao CADAM; unidades absolutas nao publicadas; https://marketdata.com.py/noticias/vehiculos-electricos-ya-representan-cerca-del-17-del-mercado-automotor-paraguayo-155432/
+2026,07,BEV_VENTAS,,2.2,MarketData 01/09/2026 Grupo Garden; participacao do mercado acumulado a julho (antes 1.1%); crescimento >200%; NAO e importacao CADAM; base do 1.1% nao especificada; unidades absolutas nao publicadas
 2026,08,TOTAL_EV,3633,14.7,CADAM (via ABC Color 24/09/2026)
 2026,08,TOTAL_MERCADO,24700,,CADAM via ABC Color 24/09/2026; base do 14.7%
