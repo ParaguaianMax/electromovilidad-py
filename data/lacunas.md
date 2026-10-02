@@ -1,5 +1,11 @@
 # Lacunas de dados
 
+## Atualização 02/10/2026
+
+- **Setembro 2026**: a CADAM ainda não publicou números do mês de setembro. A notícia mais recente (ABC Color, 24/09/2026) traz o acumulado até agosto: 3.633 unidades eletrificadas, 14,7% de 24.700 unidades totais. O bot deve buscar novamente em outubro, quando o dado mensal de setembro deve sair.
+- **Unidades mensais de setembro**: não existem. A CADAM publica acumulados (janeiro-junho, janeiro-agosto), não o mês isolado.
+- **Modelos em setembro**: nenhum dado paraguaio de setembro encontrado. Os números de modelos (BYD Dolphin Mini 495, etc.) que circulam na imprensa em 01/10/2026 referem-se à Argentina (ACARA), não ao Paraguai — não devem ser misturados.
+
 ## O que NÃO existe como dado público
 
 1. **Emplacamento por modelo**: a DNRA não publica matrículas por modelo, só por marca/combustível/tipo.
