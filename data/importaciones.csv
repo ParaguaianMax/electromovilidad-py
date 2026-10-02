@@ -3,6 +3,7 @@ ano,mes,segmento,unidades,participacao_pct,fonte
 2022,12,HEV+PHEV+BEV,1291,3.8,CADAM
 2023,12,HEV+PHEV+BEV,1560,5.2,CADAM
 2024,12,HEV+PHEV+BEV,2443,7.0,CADAM
+2025,5,TOTAL_EV,1183,,CADAM nota 16/06/2026; base jan-mai 2025; sem abertura HEV/PHEV/BEV
 2025,10,HEV,1530,49.8,CADAM 14/11/2025 acumulado jan-out
 2025,10,PHEV,882,28.7,CADAM 14/11/2025 acumulado jan-out
 2025,10,BEV,661,21.5,CADAM 14/11/2025 acumulado jan-out
