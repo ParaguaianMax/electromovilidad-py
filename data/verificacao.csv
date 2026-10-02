@@ -12,3 +12,11 @@ ano,mes,metrica,valor_cadam,valor_fonte_cruzada,fonte_cruzada,diferenca_pct,stat
 2026,08,TOTAL_EV,3633,3633,ABC Color 24/09/2026 (cita CADAM),0.0,OK,Consistente
 2026,08,participacao_total_pct,14.7,14.7,ABC Color 24/09/2026,0.0,OK,Consistente
 2026,08,TOTAL_VEICULOS,24700,24700,ABC Color 24/09/2026,0.0,OK,Consistente
+2025,12,TOTAL_EV,4049,NA,Aduana DNA (dadosabertos.aduana.gov.py) NCM 8703.80/8703.60/8703.70,NA,INACESSIVEL,Portal fora do ar / sem conectividade de saida no ambiente de execucao em 02/10/2026; DNS resolve mas TCP 443 recusado
+2026,06,TOTAL_EV,4098,NA,Aduana DNA NCM 8703.x,NA,INACESSIVEL,Idem
+2026,08,TOTAL_EV,3633,NA,Aduana DNA NCM 8703.x,NA,INACESSIVEL,Idem
+2025,12,TOTAL_EV,4049,NA,DNRA (dnra.gov.py:8065) inscricoes por motorizacao,NA,NAO_EXISTE,DNRA nao publica emplacamento por eletrico/hibrido; so totais por combustivel via portal interativo
+2026,06,TOTAL_EV,4098,NA,DNRA inscricoes por motorizacao,NA,NAO_EXISTE,Idem
+2025,12,TOTAL_EV,4049,NA,DNIT estatistica de volume,NA,NAO_EXISTE,DNIT nao publica volume de importacao de veiculos eletrificados; so arrecadacao e resolucoes
+2026,06,TOTAL_EV,4098,NA,DNIT estatistica de volume,NA,NAO_EXISTE,Idem
+2026,08,TOTAL_EV,3633,NA,DNIT estatistica de volume,NA,NAO_EXISTE,Idem
