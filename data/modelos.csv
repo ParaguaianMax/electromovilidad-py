@@ -1,4 +1,8 @@
 ano,segmento,marca,modelo,unidades,origem,categoria_tamanho,categoria_carroceria,preco_estimado_usd,fonte,confiabilidade
-2025,BEV,Volvo,EX30,127,Suécia,pequeno,SUV,35000,imprensa (Grupo Garden),media
-2025,HEV,Toyota,Corolla Cross,nao publicado,Japão,medio,SUV,30000,imprensa,baixa
+2025,BEV,Volvo,EX30,127,Suecia,pequeno,SUV,35000,imprensa (Grupo Garden),media
+2025,HEV,Toyota,Corolla Cross,nao publicado,Japao,medio,SUV,30000,imprensa,baixa
 2025,PHEV,BYD,Song Plus DMI,nao publicado,China,medio,SUV,35000,imprensa,baixa
+2026,PHEV,Jetour,T1 PHEV,nao publicado,China,medio,SUV,35990,jetour.com.py lista oficial,alta
+2026,PHEV,Jetour,T2 PHEV,nao publicado,China,medio,SUV,40990,jetour.com.py lista oficial,alta
+2026,PHEV,Jetour,T2 PHEV 4x4,nao publicado,China,medio,SUV,45990,jetour.com.py,alta
+2026,PHEV,Jetour,G700,nao publicado,China,grande,SUV,60990,jetour.com.py e A Critica 01/09/2026,alta
