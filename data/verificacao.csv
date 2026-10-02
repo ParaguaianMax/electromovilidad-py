@@ -1,0 +1,14 @@
+ano,mes,metrica,valor_cadam,valor_fonte_cruzada,fonte_cruzada,diferenca_pct,status,observacao
+2025,12,TOTAL_EV,4049,4049,ABC Color 06/07/2026 (cita CADAM),0.0,OK,Consistente entre fontes
+2025,12,HEV,2086,2086,ABC Color 06/07/2026,0.0,OK,Consistente
+2025,12,PHEV,1105,1105,ABC Color 06/07/2026,0.0,OK,Consistente
+2025,12,BEV,858,858,ABC Color 06/07/2026,0.0,OK,Consistente
+2025,12,participacao_total_pct,10.5,10.5,ABC Color 06/07/2026,0.0,OK,Consistente
+2026,06,TOTAL_EV,4098,4098,Surtidores LATAM 14/08/2026 (cita CADAM),0.0,OK,Consistente
+2026,06,HEV,2238,2238,Surtidores LATAM 14/08/2026,0.0,OK,Consistente
+2026,06,PHEV,1172,1172,Surtidores LATAM 14/08/2026,0.0,OK,Consistente
+2026,06,BEV,688,688,Surtidores LATAM 14/08/2026,0.0,OK,Consistente
+2026,06,participacao_total_pct,10.0,10.0,Surtidores LATAM 14/08/2026,0.0,OK,Consistente
+2026,08,TOTAL_EV,3633,3633,ABC Color 24/09/2026 (cita CADAM),0.0,OK,Consistente
+2026,08,participacao_total_pct,14.7,14.7,ABC Color 24/09/2026,0.0,OK,Consistente
+2026,08,TOTAL_VEICULOS,24700,24700,ABC Color 24/09/2026,0.0,OK,Consistente
