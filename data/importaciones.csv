@@ -18,7 +18,14 @@ ano,mes,segmento,unidades,participacao_pct,fonte
 2025,12,TOTAL_MERCADO,39000,100,CADAM via ABC Color 24/09/2026; cifra arredondada (cerca de 39.000)
 2025,03,PHEV+BEV_VENTAS,469,,OLACDE/ALADDA via ABC 06/07/2026; vendas de leves eletrificados no T1 nao importacoes CADAM
 2025,06,TOTAL_EV,1521,,CADAM via ABC Color 13/08/2026; base jan-jun 2025
+2026,02,HEV,514,54.2,CADAM 06/04/2026 https://www.cadam.com.py/noticia/importaciones-de-vehiculos-hibridos-y-electricos-crecieron-138-al-mes-de-febrero acumulado jan-fev; +163.6%
+2026,02,PHEV,302,31.9,CADAM 06/04/2026 acumulado jan-fev; +182.2%
+2026,02,BEV,132,13.9,CADAM 06/04/2026 acumulado jan-fev; +38.9%
 2026,03,PHEV+BEV_VENTAS,434,,OLACDE/ALADDA via ABC 06/07/2026; vendas de leves eletrificados no T1; -7% vs T1 2025
+2026,05,HEV,,50.0,CADAM 16/06/2026 https://www.cadam.com.py/noticia/importaciones-de-vehiculos-hibridos-y-electricos-crecieron-396-en-mayo acumulado jan-mai; unidades absolutas por segmento nao publicadas
+2026,05,PHEV,,33.4,CADAM 16/06/2026 acumulado jan-mai; unidades absolutas por segmento nao publicadas
+2026,05,BEV,,16.7,CADAM 16/06/2026 acumulado jan-mai; unidades absolutas por segmento nao publicadas
+2026,05,TOTAL_EV,5877,,CADAM 16/06/2026 acumulado jan-mai; vs 1183 no mesmo periodo de 2025; +396.8%. CONFLITA com jan-jun de 4098 (ABC/CADAM)
 2026,06,HEV,2238,54.6,CADAM
 2026,06,PHEV,1172,28.6,CADAM
 2026,06,BEV,688,16.8,CADAM
