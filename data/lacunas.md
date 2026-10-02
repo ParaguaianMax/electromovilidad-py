@@ -1,5 +1,14 @@
 # Lacunas de dados
 
+## Atualizacao 02/10/2026 (noite - tentativa de acesso direto aos portais oficiais)
+
+- **Acesso direto aos portais oficiais FALHOU nesta rodada.** Testes de conexao do ambiente de execucao (code_execution) em 02/10/2026: DNS resolve (dadosabertos.aduana.gov.py -> 190.103.188.99; www.dnit.gov.py -> 201.131.51.21; www.datos.gov.py -> 168.90.177.139), mas TCP na porta 443 e recusado (Connection refused) para todos os hosts testados, incluindo sites externos de controle (google.com, httpbin.org, api.github.com). Ou seja, o ambiente de execucao nao tem conectividade de saida para a internet neste momento - nao e um problema especifico da Aduana.
+- **Consequencia:** nao foi possivel baixar e agregar despachos por NCM 8703.80 (BEV), 8703.60/8703.70 (hibridos) dos dados abertos da DNA/DNIT. A agregacao NCM 8703.x + marca continua pendente para a proxima rodada com conectividade.
+- **DNRA:** portal (dnra.gov.py:8065) segue sem serie publica de inscricoes por motorizacao. Nao ha campo eletrico/hibrido separado de combustivel. Ultima consulta (via web_search) confirma que o Portal de Estadisticas permite consulta interativa por tipo, combustivel, marca e localidade, mas sem download em massa nem API.
+- **DNIT:** nao publica estatistica de volume de importacao de veiculos eletrificados. Publica apenas arrecadacao (Gerencia General de Aduanas) e resolucoes (ex.: Resolucao Geral DNIT 31/2025 sobre classificacao NCM capitulo 87; projeto de regime gradual 30/09/2026). Nao e fonte de unidades.
+- **Aduana (dadosabertos.aduana.gov.py):** portal de dados abertos existe (sistema SOFIA, desde 1997, >50 campos por despacho, CSV/XLSX/JSON, >55 milhoes de registros). Filtro por Posicao Arancelaria disponivel. Mas sem campo de motorizacao: BEV = NCM 8703.80; hibridos = 8703.60/8703.70. A agregacao por NCM + marca e o caminho para unidades absolutas independentes da CADAM.
+- **Risco estrutural confirmado:** a CADAM declara usar a DNA como base. Sem acesso ao microdado da Aduana, a verificacao cruzada CADAM vs Aduana permanece impossivel. Todas as fontes de volume (CADAM, imprensa citando CADAM) dependem da mesma base.
+
 ## Atualizacao 02/10/2026 (noite)
 
 - **Sem boletim CADAM de junho, julho, agosto ou setembro.** A lista cadam.com.py/noticias_all, reconsultada em 02/10/2026, continua com o ultimo informe de eletromobilidade em 16/06/2026 (acumulado janeiro-maio, 5.877 unidades). Notas posteriores sao do Motor Show, onibus (15/06) e do desembarco OMODA & JAECOO (02/07/2026), sem volumes.
@@ -7,7 +16,6 @@
 - **Preco de entrada BEV (Garden, sem modelo):** existem eletricos abaixo de US$ 20.000 e opcoes acima de US$ 100.000. Nao atribuido a modelo. ABC (24/09/2026, Victor Servin) situa a diferenca de preco entre combustao e hibrido em 15% a 20%, sem tabela.
 - **Oferta Garden sem unidades:** Volvo EX40, EC40 e EX90; Chevrolet Captiva EV e Spark EV; Kia EV5; Kia PV5 anunciado como proximo; MINI Aceman e Countryman; iCAUR V23. EX30 segue como o BEV mais vendido do grupo, sem volume 2026. Incluidos em modelos.csv com confiabilidade baixa.
 - **OMODA e JAECOO (CADAM 02/07/2026):** chegada anunciada via Grupo Toyotoshi. A nota nao informa motorizacao no Paraguai nem unidades. Nao foram gravados como eletrificados.
-- **DNRA e Aduana:** nova consulta ao portal DNRA nao encontrou serie de inscricoes por motorizacao. Dados abertos da Aduana seguem sem agregacao NCM 8703.80 / 8703.60 / 8703.70 nesta rodada.
 - **Agosto e setembro:** nenhum numero novo alem do 14,7% sobre 24.700 ja gravado. El Nacional (28/09/2026) repete o percentual sem unidades. O absoluto 3.633 continua derivado e abaixo do semestre de 4.098.
 
 ## Atualizacao 02/10/2026 (tarde)
@@ -28,7 +36,7 @@
 - **Setembro 2026**: a CADAM ainda nao publicou numeros do mes de setembro. A noticia mais recente (ABC Color, 24/09/2026) traz o acumulado ate agosto: 3.633 unidades eletrificadas, 14,7% de 24.700 unidades totais. O bot deve buscar novamente em outubro, quando o dado mensal de setembro deve sair.
 - **Unidades mensais de setembro**: nao existem. A CADAM publica acumulados (janeiro-fevereiro, janeiro-maio, janeiro-junho, janeiro-agosto), nao o mes isolado.
 - **Modelos em setembro**: nenhum dado paraguaio de setembro encontrado. Os numeros de modelos (BYD Dolphin Mini 495, etc.) que circulam na imprensa em 01/10/2026 referem-se a Argentina (ACARA), nao ao Paraguai — nao devem ser misturados.
-- **Conflito maio vs junho vs agosto 2026 (nao resolvido)**: a propria CADAM, nota de 16/06/2026, afirma 5.877 unidades em janeiro-maio (+396,8% vs 1.183), HEV 50,0%, PHEV 33,4%, BEV 16,7%, sem unidades por segmento. ABC Color (13/08/2026) e Surtidores (14/08/2026), tambem citando CADAM, afirmam 4.098 em janeiro-junho. Acumulado de junho nao pode ser menor que o de maio se o universo for o mesmo. O 5.877 foi gravado em importaciones.csv com a fonte CADAM e a advertencia de conflito; nao foi descartado nem usado para calcular segmentos. O absoluto de agosto (3.633) e derivado de 14,7% x 24.700 e tambem fica abaixo do semestre.
+- **Conflito maio vs junho vs agosto 2026 (nao resolvido)**: a propria CADAM, nota de 16/06/2026, afirma 5.877 unidades em janeiro-maio (+396,8% vs 1.183), HEV 50,0%, PHEV 33,4%, BEV 16,7%, sem unidades por segmento. ABC Color (13/08/2026) e Surtidores (14/08/2026), também citando CADAM, afirmam 4.098 em janeiro-junho. Acumulado de junho nao pode ser menor que o de maio se o universo for o mesmo. O 5.877 foi gravado em importaciones.csv com a fonte CADAM e a advertencia de conflito; nao foi descartado nem usado para calcular segmentos. O absoluto de agosto (3.633) e derivado de 14,7% x 24.700 e também fica abaixo do semestre.
 - **Janeiro-fevereiro 2026 (CADAM 06/04/2026)**: HEV 514 (54,2%), PHEV 302 (31,9%), BEV 132 (13,9%), +138,8% vs o mesmo periodo de 2025. Total nao foi publicado; a soma 948 nao foi gravada. Lynk & Co lidera PHEV sem percentual.
 - **Origem das marcas em 2025 (CADAM 27/01/2026), sem unidades**: PHEV China ~75%, Alemanha 11%, Reino Unido 8%. HEV Japao 66%, Coreia 17%, China 14%. BEV China ~50%, Suecia 18%, Japao 12%, Alemanha 10%, EUA ~6%.
 - **Marcas 1S 2026 sem percentual**: Jetour e Chery citadas atras de BYD em PHEV (ABC 13/08/2026). Oferta citada: cerca de 50 marcas e mais de 200 modelos. Preco de entrada de eletricos compactos citado como US$ 12.000 a 15.000, sem modelo nomeado. SUV e picapes ~82% do importado geral, nao so do eletrificado.
@@ -49,7 +57,7 @@
 2. **Emplacamento mensal por motorizacao**: a DNRA publica totais por combustivel, mas sem serie mensal historica detalhada acessivel via portal.
 3. **Motorizacao na Aduana**: despachos tem marca e NCM, mas nao campo eletrico/hibrido. Inferencia por NCM (8703.x) + marca.
 4. **Preco de venda no Paraguai**: nao ha fonte oficial; estimativas vem de concessionarias/imprensa. Excecao desta passagem: lista oficial Jetour (jetour.com.py). BYD Ti7, Yuan Pro DM-i e Sealion 7 sem preco.
-5. **Parque circulante eletrico**: OLACDE estimou ~1.200 BEV em 2023; atualizacao citada de marco 2026: 4.359 leves (ABC/OLACDE), sem desagregar BEV e PHEV.
+5. **Parque circulante eletrico**: OLACDE estimou ~1.200 BEV em 2023; atualizacao citada de marco de 2026: 4.359 leves (ABC/OLACDE), sem desagregar BEV e PHEV.
 6. **Unidades absolutas por marca**: CADAM publica percentuais. Nao foram calculadas unidades a partir de percentuais arredondados.
 
 ## O que existe mas e esparso
@@ -61,6 +69,7 @@
 
 - Contatar CADAM diretamente para unidades absolutas por marca/modelo e para reconciliar 5.877 (maio) vs 4.098 (junho) vs 14,7% (agosto).
 - Verificar se a DNRA tem API ou download em massa alem do portal de consulta.
-- Cruzar NCM 8703.80 (eletricos) e 8703.60/8703.70 (hibridos) nos dados abertos da Aduana.
+- Cruzar NCM 8703.80 (eletricos) e 8703.60/8703.70 (hibridos) nos dados abertos da Aduana - PRIORIDADE quando houver conectividade.
 - Contatar OLACDE para serie historica de parque circulante eletrico no Paraguai.
 - Repetir a busca quando sair o boletim de setembro/outubro no site da CADAM.
+- Testar acesso ao portal de dados abertos da Aduana (dadosabertos.aduana.gov.py) em rodada futura com conectividade de saida.
