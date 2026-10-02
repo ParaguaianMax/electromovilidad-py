@@ -1,12 +1,15 @@
 ano,segmento,marca,modelo,unidades,origem,categoria_tamanho,categoria_carroceria,preco_estimado_usd,fonte,confiabilidade
 2025,BEV,Volvo,EX30,127,Suecia,pequeno,SUV,35000,imprensa (Grupo Garden),media
+2025,BEV,Volvo,linha BEV (nao desagregada),152,Suecia,misto,misto,nao publicado,Motorpy 19/01/2026; vendas da marca no ano nao importacao CADAM; EX30 responde por 127 dessas unidades,media
+2025,PHEV,Volvo,linha PHEV (nao desagregada),73,Suecia,misto,misto,nao publicado,Motorpy 19/01/2026; vendas da marca no ano nao importacao CADAM,media
 2025,HEV,Toyota,Corolla Cross,nao publicado,Japao,medio,SUV,30000,imprensa,baixa
 2025,PHEV,BYD,Song Plus DMI,nao publicado,China,medio,SUV,35000,imprensa,baixa
 2026,PHEV,Jetour,T1 PHEV,nao publicado,China,medio,SUV,35990,jetour.com.py lista oficial,alta
 2026,PHEV,Jetour,T2 PHEV,nao publicado,China,medio,SUV,40990,jetour.com.py lista oficial,alta
 2026,PHEV,Jetour,T2 PHEV 4x4,nao publicado,China,medio,SUV,45990,jetour.com.py,alta
 2026,PHEV,Jetour,G700,nao publicado,China,grande,SUV,60990,jetour.com.py e A Critica 01/09/2026,alta
-2026,PHEV,BYD,Ti7,nao publicado,China,medio,SUV,nao publicado,Ultima Hora 02/10/2026 (brand voice Diesa/Solfrio); lancamento local; preco e unidades nao informados,baixa
+2026,PHEV,BYD,Ti7,nao publicado,China,grande,SUV,nao publicado,Ultima Hora 02/10/2026 e La Nacion 01/10/2026 (brand voice Diesa/Solfrio); lancamento local; preco e unidades nao informados; autonomia eletrica declarada 115 km,baixa
+2026,PHEV,BYD,Yuan Pro DM-i,50,China,compacto,SUV,nao publicado,ABC Color empresarial 06/06/2026; 50 unidades da primeira leva reservadas em preventa (sold out); nao e estatistica de importacao CADAM; preco nao publicado,media
 2026,HEV,Renault,Koleos E-Tech,nao publicado,Franca,medio,SUV,34990,anuncios infomotors.com.py out/2026; nao e lista oficial,baixa
 2026,BEV,BYD,Sealion 7,nao publicado,China,medio,SUV,nao publicado,apresentacao Diesa na CADAM Motor Show; preco e unidades nao publicados,baixa
 2026,BEV,nao especificada,onibus eletrico area metropolitana,70,nao publicado,onibus,onibus,nao publicado,MOPC via Ultima Hora (anuncio de incorporacao; 30 doados por Taiwan chegaram em fev/2026) e nota CADAM 15/06/2026; nao e estatistica de importacao CADAM,media

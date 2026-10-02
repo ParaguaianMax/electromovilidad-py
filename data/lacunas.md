@@ -1,5 +1,18 @@
 # Lacunas de dados
 
+## Atualizacao 02/10/2026 (tarde)
+
+- **Sem boletim CADAM de julho, agosto ou setembro.** A lista de noticias em cadam.com.py/noticias_all, consultada em 02/10/2026, ainda tem como ultimo informe de eletromobilidade a nota de 16/06/2026 (acumulado janeiro-maio). Nao ha nota de fechamento de junho, julho, agosto ou setembro no site da camara.
+- **Agosto 2026 segue so na imprensa.** ABC Color (24/09/2026, Victor Servin, vice-presidente da CADAM) e El Nacional (28/09/2026) repetem 14,7% de participacao sobre 24.700 unidades importadas ate agosto. El Nacional nao acrescenta unidades nem abertura HEV/PHEV/BEV. O absoluto 3.633 ja gravado em importaciones.csv e derivado (14,7% x 24.700) e continua abaixo do semestre de 4.098 atribuido a CADAM pelo ABC em 13/08/2026.
+- **Setembro 2026:** nenhum numero mensal ou acumulado novo. Nao foi adicionada linha em importaciones.csv para evitar duplicar o 14,7%.
+- **BYD Yuan Pro DM-i:** ABC Color empresarial (06/06/2026) informa 50 unidades da primeira leva reservadas em preventa. Gravado em modelos.csv como reserva comercial, nao como importacao.
+- **BYD Ti7:** Ultima Hora (02/10/2026, brand voice) e La Nacion (01/10/2026) confirmam lancamento PHEV, autonomia eletrica declarada de 115 km e preventa sem quantidade nem preco.
+- **Volvo 2025 (vendas, nao importacao CADAM):** Motorpy (19/01/2026) cita 152 EV e 73 PHEV vendidos pela marca, dos quais 127 sao EX30. Incluido em modelos.csv com confiabilidade media; nao foi somado ao ranking CADAM.
+- **Fonte alternativa nao reconciliada:** Jose Carlos Bogarin (Automotor), em La Tribuna (01/10/2026), afirmou que os 100% eletricos representam cerca de 4% do parque novo e os hibridos 15% a 18%. Nao e dado CADAM e nao foi gravado como importacao.
+- **DNIT (30/09/2026):** projeto de regime gradual (50% do AEC + IVA 5% ate 2032; AEC pleno e IVA 10% desde 2033), com estimativa de arrecadacao de USD 15 a 30 milhoes. Nao e estatistica de volume.
+- **DNRA:** portal (dnra.gov.py) segue sem serie publica de inscricoes por motorizacao. Ultima consulta nao encontrou campo eletrico/hibrido separado de combustivel.
+- **Aduana (dadosabertos.aduana.gov.py):** despachos por NCM existem, mas nao foi possivel baixar e agregar NCM 8703.80 / 8703.60 / 8703.70 nesta rodada. A CADAM declara usar a DNA como base; o microdado aberto continua sem campo de motorizacao.
+
 ## Atualizacao 02/10/2026
 
 - **Setembro 2026**: a CADAM ainda nao publicou numeros do mes de setembro. A noticia mais recente (ABC Color, 24/09/2026) traz o acumulado ate agosto: 3.633 unidades eletrificadas, 14,7% de 24.700 unidades totais. O bot deve buscar novamente em outubro, quando o dado mensal de setembro deve sair.
@@ -25,13 +38,13 @@
 1. **Emplacamento por modelo**: a DNRA nao publica matriculas por modelo, so por marca/combustivel/tipo.
 2. **Emplacamento mensal por motorizacao**: a DNRA publica totais por combustivel, mas sem serie mensal historica detalhada acessivel via portal.
 3. **Motorizacao na Aduana**: despachos tem marca e NCM, mas nao campo eletrico/hibrido. Inferencia por NCM (8703.x) + marca.
-4. **Preco de venda no Paraguai**: nao ha fonte oficial; estimativas vem de concessionarias/imprensa. Excecao desta passagem: lista oficial Jetour (jetour.com.py). BYD Ti7 e Sealion 7 sem preco.
+4. **Preco de venda no Paraguai**: nao ha fonte oficial; estimativas vem de concessionarias/imprensa. Excecao desta passagem: lista oficial Jetour (jetour.com.py). BYD Ti7, Yuan Pro DM-i e Sealion 7 sem preco.
 5. **Parque circulante eletrico**: OLACDE estimou ~1.200 BEV em 2023; atualizacao citada de marco 2026: 4.359 leves (ABC/OLACDE), sem desagregar BEV e PHEV.
 6. **Unidades absolutas por marca**: CADAM publica percentuais. Nao foram calculadas unidades a partir de percentuais arredondados.
 
 ## O que existe mas e esparso
 
-- Modelos especificos: so via imprensa (ABC, HOY, MarketData, Forbes PY) ou site de marca. Unidades por modelo continuam raras (unico numero mantido: Volvo EX30, 127).
+- Modelos especificos: so via imprensa (ABC, HOY, MarketData, Forbes PY) ou site de marca. Unidades por modelo continuam raras (Volvo EX30 127; linha Volvo BEV 152 e PHEV 73 em vendas; Yuan Pro 50 reservas).
 - Ranking de marcas: CADAM publica percentuais, nao unidades absolutas por marca (exceto quando imprensa cita).
 
 ## Proximos passos sugeridos
@@ -40,4 +53,4 @@
 - Verificar se a DNRA tem API ou download em massa alem do portal de consulta.
 - Cruzar NCM 8703.80 (eletricos) e 8703.60/8703.70 (hibridos) nos dados abertos da Aduana.
 - Contatar OLACDE para serie historica de parque circulante eletrico no Paraguai.
-- Repetir a busca em outubro pelo acumulado de setembro.
+- Repetir a busca quando sair o boletim de setembro/outubro no site da CADAM.
