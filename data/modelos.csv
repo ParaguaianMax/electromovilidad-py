@@ -1,0 +1,4 @@
+ano,segmento,marca,modelo,unidades,origem,categoria_tamanho,categoria_carroceria,preco_estimado_usd,fonte,confiabilidade
+2025,BEV,Volvo,EX30,127,Suécia,pequeno,SUV,35000,imprensa (Grupo Garden),media
+2025,HEV,Toyota,Corolla Cross,nao publicado,Japão,medio,SUV,30000,imprensa,baixa
+2025,PHEV,BYD,Song Plus DMI,nao publicado,China,medio,SUV,35000,imprensa,baixa
