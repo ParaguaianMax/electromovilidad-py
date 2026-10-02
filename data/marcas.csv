@@ -1,34 +1,34 @@
-ano,segmento,marca,participacao_pct,origem,fonte
-2025,PHEV,BYD,25.2,China,CADAM 27/01/2026
-2025,PHEV,Great Wall,16.5,China,CADAM 27/01/2026 (grafia original Greatwall)
-2025,PHEV,Jetour,8.8,China,CADAM 27/01/2026
-2025,PHEV,Chery,8.3,China,CADAM 27/01/2026
-2025,PHEV,BMW,7.1,Alemanha,CADAM 27/01/2026
-2025,PHEV,Volvo,6.6,Suecia,CADAM 27/01/2026
-2025,PHEV,Lynk & Co,6.0,China,CADAM 27/01/2026
-2025,PHEV,MG,5.9,China,CADAM 27/01/2026
-2025,PHEV,Soueast,3.1,China,CADAM 27/01/2026
-2025,PHEV,Porsche,2.9,Alemanha,CADAM 27/01/2026
-2025,HEV,Toyota,52.6,Japao,CADAM 27/01/2026
-2025,HEV,Hyundai,13.2,Coreia,CADAM 27/01/2026
-2025,HEV,Lexus,7.1,Japao,CADAM 27/01/2026
-2025,HEV,Great Wall,5.8,China,CADAM 27/01/2026 (grafia original Greatwall)
-2025,HEV,Chery,5.0,China,CADAM 27/01/2026
-2025,HEV,Kia,3.6,Coreia,CADAM 27/01/2026
-2025,HEV,Honda,2.9,Japao,CADAM 27/01/2026
-2025,HEV,Subaru,2.2,Japao,CADAM 27/01/2026
-2025,HEV,Mazda,1.0,Japao,CADAM 27/01/2026
-2025,HEV,MG,1.0,China,CADAM 27/01/2026
-2025,BEV,BYD,24.5,China,CADAM 27/01/2026
-2025,BEV,Volvo,17.6,Suecia,CADAM 27/01/2026
-2025,BEV,Nissan,11.4,Japao,CADAM 27/01/2026
-2025,BEV,Chevrolet,5.7,EUA,CADAM 27/01/2026
-2025,BEV,Geely,4.3,China,CADAM 27/01/2026
-2025,BEV,Master,3.5,China,CADAM 27/01/2026; onibus
-2025,BEV,Zeekr,3.0,China,CADAM 27/01/2026
-2025,BEV,Audi,2.9,Alemanha,CADAM 27/01/2026
-2025,BEV,JMEV,2.8,China,CADAM 27/01/2026
-2025,BEV,BMW,2.7,Alemanha,CADAM 27/01/2026
+ano,mes,segmento,marca,participacao_pct,origem,fonte
+2025,12,PHEV,BYD,25.2,China,CADAM 27/01/2026
+2025,12,PHEV,Great Wall,16.5,China,CADAM 27/01/2026 (grafia original Greatwall)
+2025,12,PHEV,Jetour,8.8,China,CADAM 27/01/2026
+2025,12,PHEV,Chery,8.3,China,CADAM 27/01/2026
+2025,12,PHEV,BMW,7.1,Alemanha,CADAM 27/01/2026
+2025,12,PHEV,Volvo,6.6,Suecia,CADAM 27/01/2026
+2025,12,PHEV,Lynk & Co,6.0,China,CADAM 27/01/2026
+2025,12,PHEV,MG,5.9,China,CADAM 27/01/2026
+2025,12,PHEV,Soueast,3.1,China,CADAM 27/01/2026
+2025,12,PHEV,Porsche,2.9,Alemanha,CADAM 27/01/2026
+2025,12,HEV,Toyota,52.6,Japao,CADAM 27/01/2026
+2025,12,HEV,Hyundai,13.2,Coreia,CADAM 27/01/2026
+2025,12,HEV,Lexus,7.1,Japao,CADAM 27/01/2026
+2025,12,HEV,Great Wall,5.8,China,CADAM 27/01/2026 (grafia original Greatwall)
+2025,12,HEV,Chery,5.0,China,CADAM 27/01/2026
+2025,12,HEV,Kia,3.6,Coreia,CADAM 27/01/2026
+2025,12,HEV,Honda,2.9,Japao,CADAM 27/01/2026
+2025,12,HEV,Subaru,2.2,Japao,CADAM 27/01/2026
+2025,12,HEV,Mazda,1.0,Japao,CADAM 27/01/2026
+2025,12,HEV,MG,1.0,China,CADAM 27/01/2026
+2025,12,BEV,BYD,24.5,China,CADAM 27/01/2026
+2025,12,BEV,Volvo,17.6,Suecia,CADAM 27/01/2026
+2025,12,BEV,Nissan,11.4,Japao,CADAM 27/01/2026
+2025,12,BEV,Chevrolet,5.7,EUA,CADAM 27/01/2026
+2025,12,BEV,Geely,4.3,China,CADAM 27/01/2026
+2025,12,BEV,Master,3.5,China,CADAM 27/01/2026; onibus
+2025,12,BEV,Zeekr,3.0,China,CADAM 27/01/2026
+2025,12,BEV,Audi,2.9,Alemanha,CADAM 27/01/2026
+2025,12,BEV,JMEV,2.8,China,CADAM 27/01/2026
+2025,12,BEV,BMW,2.7,Alemanha,CADAM 27/01/2026
 2026,02,HEV,Toyota,35.4,Japao,CADAM 06/04/2026 acumulado jan-fev; so percentual
 2026,02,HEV,Kia,18.9,Coreia,CADAM 06/04/2026 acumulado jan-fev
 2026,02,HEV,Hyundai,18.5,Coreia,CADAM 06/04/2026 acumulado jan-fev
@@ -38,7 +38,8 @@ ano,segmento,marca,participacao_pct,origem,fonte
 2026,02,HEV,Geely,3.9,China,CADAM 06/04/2026 acumulado jan-fev
 2026,02,HEV,KGM,3.1,Coreia,CADAM 06/04/2026 acumulado jan-fev
 2026,02,HEV,Great Wall,2.3,China,CADAM 06/04/2026 acumulado jan-fev; grafia original Greatwall
-2026,02,PHEV,Jetour,17.2,China,CADAM 06/04/2026 acumulado jan-fev; Lynk & Co citada como lider sem percentual
+2026,02,PHEV,Lynk & Co,,China,CADAM 06/04/2026 acumulado jan-fev; citada como lider sem percentual publicado
+2026,02,PHEV,Jetour,17.2,China,CADAM 06/04/2026 acumulado jan-fev
 2026,02,PHEV,Volvo,12.6,Suecia,CADAM 06/04/2026 acumulado jan-fev
 2026,02,PHEV,Soueast,11.6,China,CADAM 06/04/2026 acumulado jan-fev
 2026,02,PHEV,Chery,10.9,China,CADAM 06/04/2026 acumulado jan-fev
@@ -57,42 +58,42 @@ ano,segmento,marca,participacao_pct,origem,fonte
 2026,02,BEV,Geely Radar,4.5,China,CADAM 06/04/2026 acumulado jan-fev
 2026,02,BEV,Honda,4.5,Japao,CADAM 06/04/2026 acumulado jan-fev
 2026,02,BEV,JAC,4.5,China,CADAM 06/04/2026 acumulado jan-fev
-2026,HEV,Toyota,35.6,Japao,CADAM nota 16/06/2026; jan-mai; so percentual
-2026,HEV,Kia,26.5,Coreia,CADAM nota 16/06/2026; jan-mai; grafia original KIA
-2026,HEV,Hyundai,12.3,Coreia,CADAM nota 16/06/2026; jan-mai
-2026,HEV,Great Wall,5.6,China,CADAM nota 16/06/2026; jan-mai; grafia original Greatwall
-2026,HEV,Chery,4.1,China,CADAM nota 16/06/2026; jan-mai
-2026,HEV,Lexus,3.6,Japao,CADAM nota 16/06/2026; jan-mai
-2026,HEV,MG,3.5,China,CADAM nota 16/06/2026; jan-mai
-2026,HEV,Renault,2.3,Franca,CADAM nota 16/06/2026; jan-mai
-2026,HEV,Geely,1.2,China,CADAM nota 16/06/2026; jan-mai
-2026,HEV,GAC,0.9,China,CADAM nota 16/06/2026; jan-mai
-2026,HEV,KGM,0.9,Coreia,CADAM nota 16/06/2026; jan-mai
-2026,PHEV,BYD,15.5,China,CADAM nota 16/06/2026; jan-mai; so percentual
-2026,PHEV,Jetour,13.5,China,CADAM nota 16/06/2026; jan-mai
-2026,PHEV,Chery,13.0,China,CADAM nota 16/06/2026; jan-mai
-2026,PHEV,Great Wall,11.0,China,CADAM nota 16/06/2026; jan-mai; grafia original Greatwall
-2026,PHEV,Soueast,9.5,China,CADAM nota 16/06/2026; jan-mai
-2026,PHEV,Lynk & Co,7.1,China,CADAM nota 16/06/2026; jan-mai
-2026,PHEV,Volvo,5.5,Suecia,CADAM nota 16/06/2026; jan-mai
-2026,PHEV,Deepal,5.3,China,CADAM nota 16/06/2026; jan-mai
-2026,PHEV,MG,4.6,China,CADAM nota 16/06/2026; jan-mai
-2026,PHEV,BMW,4.5,Alemanha,CADAM nota 16/06/2026; jan-mai
-2026,PHEV,iCaur,3.4,China,CADAM nota 16/06/2026; jan-mai; grafia original Icaur
-2026,BEV,BYD,18.7,China,CADAM nota 16/06/2026; jan-mai; so percentual
-2026,BEV,Volvo,11.1,Suecia,CADAM nota 16/06/2026; jan-mai
-2026,BEV,Chevrolet,9.7,EUA,CADAM nota 16/06/2026; jan-mai
-2026,BEV,Nissan,7.1,Japao,CADAM nota 16/06/2026; jan-mai
-2026,BEV,iCaur,4.2,China,CADAM nota 16/06/2026; jan-mai; grafia original Icaur
-2026,BEV,Farizon,4.0,China,CADAM nota 16/06/2026; jan-mai; CADAM indica caminhao
-2026,BEV,Kia,4.0,Coreia,CADAM nota 16/06/2026; jan-mai; grafia original KIA
-2026,BEV,Xiaomi,3.8,China,CADAM nota 16/06/2026; jan-mai
-2026,BEV,Gotogo,3.5,nao informado,CADAM nota 16/06/2026; jan-mai; origem nao publicada
-2026,BEV,Aion,3.3,China,CADAM nota 16/06/2026; jan-mai
-2026,BEV,Leapmotor,3.1,China,CADAM nota 16/06/2026; jan-mai
-2026,HEV,Toyota,38.1,Japao,CADAM via ABC Color 13/08/2026; jan-jun
-2026,HEV,Kia,28.8,Coreia,CADAM via ABC Color 13/08/2026; jan-jun
-2026,HEV,Hyundai,9.5,Coreia,CADAM via ABC Color 13/08/2026; jan-jun
-2026,PHEV,BYD,14.2,China,CADAM via ABC Color 13/08/2026; jan-jun; Jetour e Chery citados sem percentual
-2026,BEV,BYD,16.6,China,CADAM via ABC Color 13/08/2026; jan-jun
-2026,BEV,Chevrolet,13.4,EUA,CADAM via ABC Color 13/08/2026; jan-jun
+2026,05,HEV,Toyota,35.6,Japao,CADAM nota 16/06/2026; jan-mai; so percentual
+2026,05,HEV,Kia,26.5,Coreia,CADAM nota 16/06/2026; jan-mai; grafia original KIA
+2026,05,HEV,Hyundai,12.3,Coreia,CADAM nota 16/06/2026; jan-mai
+2026,05,HEV,Great Wall,5.6,China,CADAM nota 16/06/2026; jan-mai; grafia original Greatwall
+2026,05,HEV,Chery,4.1,China,CADAM nota 16/06/2026; jan-mai
+2026,05,HEV,Lexus,3.6,Japao,CADAM nota 16/06/2026; jan-mai
+2026,05,HEV,MG,3.5,China,CADAM nota 16/06/2026; jan-mai
+2026,05,HEV,Renault,2.3,Franca,CADAM nota 16/06/2026; jan-mai
+2026,05,HEV,Geely,1.2,China,CADAM nota 16/06/2026; jan-mai
+2026,05,HEV,GAC,0.9,China,CADAM nota 16/06/2026; jan-mai
+2026,05,HEV,KGM,0.9,Coreia,CADAM nota 16/06/2026; jan-mai
+2026,05,PHEV,BYD,15.5,China,CADAM nota 16/06/2026; jan-mai; so percentual
+2026,05,PHEV,Jetour,13.5,China,CADAM nota 16/06/2026; jan-mai
+2026,05,PHEV,Chery,13.0,China,CADAM nota 16/06/2026; jan-mai
+2026,05,PHEV,Great Wall,11.0,China,CADAM nota 16/06/2026; jan-mai; grafia original Greatwall
+2026,05,PHEV,Soueast,9.5,China,CADAM nota 16/06/2026; jan-mai
+2026,05,PHEV,Lynk & Co,7.1,China,CADAM nota 16/06/2026; jan-mai
+2026,05,PHEV,Volvo,5.5,Suecia,CADAM nota 16/06/2026; jan-mai
+2026,05,PHEV,Deepal,5.3,China,CADAM nota 16/06/2026; jan-mai
+2026,05,PHEV,MG,4.6,China,CADAM nota 16/06/2026; jan-mai
+2026,05,PHEV,BMW,4.5,Alemanha,CADAM nota 16/06/2026; jan-mai
+2026,05,PHEV,iCaur,3.4,China,CADAM nota 16/06/2026; jan-mai; grafia original Icaur
+2026,05,BEV,BYD,18.7,China,CADAM nota 16/06/2026; jan-mai; so percentual
+2026,05,BEV,Volvo,11.1,Suecia,CADAM nota 16/06/2026; jan-mai
+2026,05,BEV,Chevrolet,9.7,EUA,CADAM nota 16/06/2026; jan-mai
+2026,05,BEV,Nissan,7.1,Japao,CADAM nota 16/06/2026; jan-mai
+2026,05,BEV,iCaur,4.2,China,CADAM nota 16/06/2026; jan-mai; grafia original Icaur
+2026,05,BEV,Farizon,4.0,China,CADAM nota 16/06/2026; jan-mai; CADAM indica caminhao
+2026,05,BEV,Kia,4.0,Coreia,CADAM nota 16/06/2026; jan-mai; grafia original KIA
+2026,05,BEV,Xiaomi,3.8,China,CADAM nota 16/06/2026; jan-mai
+2026,05,BEV,Gotogo,3.5,nao informado,CADAM nota 16/06/2026; jan-mai; origem nao publicada
+2026,05,BEV,Aion,3.3,China,CADAM nota 16/06/2026; jan-mai
+2026,05,BEV,Leapmotor,3.1,China,CADAM nota 16/06/2026; jan-mai
+2026,06,HEV,Toyota,38.1,Japao,CADAM via ABC Color 13/08/2026; jan-jun
+2026,06,HEV,Kia,28.8,Coreia,CADAM via ABC Color 13/08/2026; jan-jun
+2026,06,HEV,Hyundai,9.5,Coreia,CADAM via ABC Color 13/08/2026; jan-jun
+2026,06,PHEV,BYD,14.2,China,CADAM via ABC Color 13/08/2026; jan-jun; Jetour e Chery citados sem percentual
+2026,06,BEV,BYD,16.6,China,CADAM via ABC Color 13/08/2026; jan-jun
+2026,06,BEV,Chevrolet,13.4,EUA,CADAM via ABC Color 13/08/2026; jan-jun
