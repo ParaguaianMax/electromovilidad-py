@@ -3,12 +3,25 @@ ano,mes,segmento,unidades,participacao_pct,fonte
 2022,12,HEV+PHEV+BEV,1291,3.8,CADAM
 2023,12,HEV+PHEV+BEV,1560,5.2,CADAM
 2024,12,HEV+PHEV+BEV,2443,7.0,CADAM
+2025,10,HEV,1530,49.8,CADAM 14/11/2025 acumulado jan-out
+2025,10,PHEV,882,28.7,CADAM 14/11/2025 acumulado jan-out
+2025,10,BEV,661,21.5,CADAM 14/11/2025 acumulado jan-out
+2025,10,TOTAL_EV,3073,9.4,CADAM 14/11/2025 acumulado jan-out; participacao sobre importacoes totais
+2025,11,HEV,1756,50.5,CADAM via MarketData/Forbes 09-13/12/2025 acumulado jan-nov
+2025,11,PHEV,970,27.9,CADAM via MarketData/Forbes 09-13/12/2025 acumulado jan-nov
+2025,11,BEV,749,21.6,CADAM via MarketData 09/12/2025 acumulado jan-nov
+2025,11,TOTAL_EV,3475,9.6,CADAM via MarketData/Forbes; participacao sobre importacoes totais
 2025,12,HEV,2086,51.5,CADAM
 2025,12,PHEV,1105,27.3,CADAM
 2025,12,BEV,858,21.2,CADAM
 2025,12,TOTAL_EV,4049,10.5,CADAM
+2025,12,TOTAL_MERCADO,39000,100,CADAM via ABC Color 24/09/2026; cifra arredondada (cerca de 39.000)
+2025,03,PHEV+BEV_VENTAS,469,,OLACDE/ALADDA via ABC 06/07/2026; vendas de leves eletrificados no T1 nao importacoes CADAM
+2025,06,TOTAL_EV,1521,,CADAM via ABC Color 13/08/2026; base jan-jun 2025
+2026,03,PHEV+BEV_VENTAS,434,,OLACDE/ALADDA via ABC 06/07/2026; vendas de leves eletrificados no T1; -7% vs T1 2025
 2026,06,HEV,2238,54.6,CADAM
 2026,06,PHEV,1172,28.6,CADAM
 2026,06,BEV,688,16.8,CADAM
-2026,06,TOTAL_EV,4098,,CADAM
+2026,06,TOTAL_EV,4098,10,CADAM via ABC Color 13/08/2026; participacao aproximada de 10% do total importado
 2026,08,TOTAL_EV,3633,14.7,CADAM (via ABC Color 24/09/2026)
+2026,08,TOTAL_MERCADO,24700,,CADAM via ABC Color 24/09/2026; base do 14.7%
